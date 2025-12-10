@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Functions</title>
+</head>
+<body>
+
+<h2>JavaScript – Function Examples</h2>
+<p>Check the Console output. (Right click → Inspect → Console)</p>
+
+<script>
+    // Function Declaration
+    function greet() {
+        console.log("Hello! Welcome to JavaScript functions.");
+    }
+    greet(); // calling the function
+
+    // Function with parameters
+    function add(a, b) {
+        console.log("Sum =", a + b);
+    }
+    add(10, 5);
+
+    // Function Expression
+    let multiply = function (x, y) {
+        console.log("Multiplication =", x * y);
+    };
+    multiply(4, 6);
+
+    // Arrow Function (Modern)
+    const welcome = () => {
+        console.log("Arrow Function: You are learning JS functions!");
+    };
+    welcome();
+</script>
+
+</body>
+</html>
